@@ -60,24 +60,28 @@
                     <p class="text-center text-xs">Si necesitas información adicional, completa el formulario y te contáctaremos en la brevedad. </p>
                     <input 
                         type="text" 
-                        placeholder="Nombre" 
+                        placeholder="Nombre"
+                        name="name"
                         class="px-4 py-2 rounded border border-gray-300 focus:outline-none focus:ring-2 focus:ring-purple-400"
                         required
                     />
                     <input 
                         type="email" 
+                        name="email"
                         placeholder="Correo electrónico" 
                         class="px-4 py-2 rounded border border-gray-300 focus:outline-none focus:ring-2 focus:ring-purple-400"
                         required
                     />
                     <input 
                         type="tel" 
+                        name="phone"
                         placeholder="Teléfono" 
                         class="px-4 py-2 rounded border border-gray-300 focus:outline-none focus:ring-2 focus:ring-purple-400"
                         required
                     />
                     <textarea 
                         placeholder="¿Qué necesitas para tu evento?" 
+                        name="message"
                         class="px-4 py-2 rounded border border-gray-300 focus:outline-none focus:ring-2 focus:ring-purple-400 resize-none"
                         rows="3"
                         required
@@ -246,5 +250,6 @@
 
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
     <script src="js/slider.js"></script>
+    <script src="js/form.js"></script>
 </body>
 </html>
