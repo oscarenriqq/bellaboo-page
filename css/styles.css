@@ -1,7 +1,7 @@
 body {
     background-image:
         linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)),
-        url('../images/bg/sun-tornado.svg');
+        url('../images/bg/parabolic-ellipse.svg');
 }
 
 @media (min-width: 768px) {
